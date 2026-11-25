@@ -87,6 +87,7 @@ footer a{color:var(--gold);text-decoration:none}
   <a class="logo" id="logo" hidden><img id="logoImg" alt=""></a>
 
   <div class="eyebrow" data-t="sopratitolo"></div>
+  <img class="hero-img" id="heroImg" alt="" hidden>
   <h1 data-t="titolo"></h1>
   <p class="lead" data-t="sottotitolo"></p>
   <!-- UNICO PULSANTE -->
@@ -125,7 +126,9 @@ var IMPOSTAZIONI = {
   logoAlt:       "Dinner in the Sky",
   /* Se non hai il logo in img, puoi usare quello del sito ufficiale:
      "https://static.wixstatic.com/media/1eee86_4c393fc586cf409a8ed23cc5737a6a14~mv2.png/v1/fill/w_636,h_168,al_c,q_85,enc_avif,quality_auto/Logo%20DITS%20White%201.png" */
-
+immagineTitolo:    "img/titolo.png",   /* immagine sopra il titolo; "" = nessuna */
+immagineTitoloAlt: "",                 /* descrizione per l'accessibilità, oppure lascia vuoto se è solo decorativa */
+   
   /* TESTI */
   titoloPagina:  "Christmas Card | Dinner in the Sky",
   descrizioneSfondo: "Christmas Card Dinner in the Sky con tavola sospesa sulla città, regali e lanterna",
@@ -169,6 +172,13 @@ var IMPOSTAZIONI = {
     i.onerror=function(){l.hidden=true};   /* se il file non esiste, il logo non compare */
     i.onload=function(){l.hidden=false};
     i.alt=C.logoAlt;l.href=C.logoLink||'#';i.src=C.logo;
+  }
+     if(C.immagineTitolo){
+    var h=$('heroImg');
+    h.onerror=function(){h.hidden=true};
+    h.onload=function(){h.hidden=false};
+    h.alt=C.immagineTitoloAlt||'';
+    h.src=C.immagineTitolo;
   }
 })();
 
