@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Christmas Gift Card | Dinner in the Sky</title>
-<meta name="description" content="Regala una cena sospesa nel cielo: la Christmas Gift Card Dinner in the Sky.">
+<meta name="description" content="Regala una cena sospesa nel cielo: la Christmas Card Dinner in the Sky.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
@@ -119,8 +119,8 @@ footer a{color:var(--gold);text-decoration:none}
      ===================================================================== -->
 <script>
 var TESTI = {
-  titoloPagina:  "Christmas Gift Card | Dinner in the Sky",
-  descrizioneImmagine: "Christmas Gift Card Dinner in the Sky con tavola sospesa sulla città, regali e lanterna",
+  titoloPagina:  "Christmas Card | Dinner in the Sky",
+  descrizioneImmagine: "Christmas Card Dinner in the Sky con tavola sospesa sulla città, regali e lanterna",
 
   /* LOGO in alto a sinistra: scrivi il percorso del file (es. "img/logo.png").
      Lascia "" per non mostrare nessun logo. L'altezza si cambia con --logo-height nel CSS. */
@@ -130,9 +130,9 @@ var TESTI = {
 
   sopratitolo:   "Dinner in the Sky · Natale",
   titolo:        "Regala una <i>cena nel cielo</i>",
-  sottotitolo:   "La Christmas Gift Card per chi merita un'esperienza indimenticabile.",
+  sottotitolo:   "La Christmas Card per chi merita un'esperienza indimenticabile.",
 
-  bottoneTesto:  "Acquista la Gift Card",
+  bottoneTesto:  "Acquista la Christmas Card",
   bottoneLink:   "https://www.dinnerinthesky.it/gift-card",
 
   introTitolo:   "Il regalo che <i>si ricorda</i> tutta la vita",
@@ -149,7 +149,7 @@ var TESTI = {
   email:         "supporto@dinnerinthesky.it",
   telefono:      "+39 342 798 2112",
   telefonoLink:  "+393427982112",
-  copyright:     "© 2026 DITS ITALIA SRL · P.IVA 04391010404"
+  copyright:     "© 2026 DINNER IN THE SKY ITALIA SRL · P.IVA 04391010404"
 };
 
 /* Applica i testi (non modificare) */
